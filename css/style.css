@@ -103,6 +103,7 @@ a {
 
 .header {
   background-color: var(--white-text-color);
+  border-bottom: 1px solid var(--snw);
 }
 /*logo*/
 .logo {
@@ -153,6 +154,8 @@ color: var(--accent-color) ;
   
   .contact-links .links {
     color:var(--primery-text-color);
+    display: flex;
+    align-items: center;
   }
   .contact-links .links:hover,
   .contact-links .links:focus {
@@ -185,6 +188,7 @@ color: var(--accent-color) ;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  
 }
 
 .container-hero {
@@ -575,6 +579,7 @@ rgba(47, 48, 58, 0.4)),
     letter-spacing: 0.03em;
    
   }
+  
   
   .contact-links-footer .contact-title:hover,
   .contact-links-footer .contact-title:focus {
